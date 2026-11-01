@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xbox Nexus — Juega. Innova. Evoluciona.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ======= NAVBAR ======= -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-brand">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Xbox_one_logo.svg" alt="Xbox" class="nav-logo">
+        <span class="nav-brand-text">NEXUS</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#gaming"        class="nav-link">Gaming &amp; Consolas</a></li>
+        <li><a href="#haas"          class="nav-link">Modelos HaaS</a></li>
+        <li><a href="#enterprise"    class="nav-link">Simulación B2B</a></li>
+        <li><a href="#sustainability" class="nav-link">Sostenibilidad</a></li>
+      </ul>
+      <a href="#" class="btn-login" id="loginBtn">Iniciar Sesión</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ======= HERO ======= -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-glow-right"></div>
+      <div class="hero-glow-left"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Xbox Nexus — Plataforma de Nueva Generación</p>
+        <h1 class="hero-title">
+          <span class="ht-line">Nuestra pasión</span>
+          <span class="ht-line ht-green">es el juego.</span>
+          <span class="ht-line">Nuestra visión,</span>
+          <span class="ht-line">el futuro.</span>
+        </h1>
+        <p class="hero-desc">
+          Hardware que evoluciona con el jugador. Soluciones que transforman industrias.
+          Una sola plataforma de próxima generación.
+        </p>
+        <div class="hero-cta">
+          <a href="#gaming" class="btn btn-primary">Explorar Consolas</a>
+          <a href="#haas"   class="btn btn-outline">Ver Planes HaaS</a>
+        </div>
+      </div>
+      <div class="hero-image-wrap">
+        <div class="hero-console-glow"></div>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Xbox_Series_X_with_controller.png/800px-Xbox_Series_X_with_controller.png"
+          alt="Xbox Series X"
+          class="hero-console"
+        >
+      </div>
+    </div>
+    <div class="hero-stats-bar">
+      <div class="hs-item">
+        <span class="hs-num" data-target="120">0</span>
+        <span class="hs-label">FPS nativos</span>
+      </div>
+      <div class="hs-divider"></div>
+      <div class="hs-item">
+        <span class="hs-num" data-target="500" data-suffix="+">0</span>
+        <span class="hs-label">Títulos en Game Pass</span>
+      </div>
+      <div class="hs-divider"></div>
+      <div class="hs-item">
+        <span class="hs-num" data-target="3">0</span>
+        <span class="hs-label">Años de ciclo HaaS</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= SECCIÓN 1 — GAMING & CONSOLAS ======= -->
+  <section class="gaming" id="gaming">
+    <div class="wrap">
+      <div class="sec-header">
+        <h2 class="sec-title">El corazón sigue aquí.</h2>
+        <p class="sec-sub">Las consolas físicas, los juegos y Game Pass son el núcleo emocional de Xbox. Todo lo nuevo que construimos amplía este mundo — no lo reemplaza.</p>
+      </div>
+
+      <div class="console-grid">
+        <!-- Series X -->
+        <div class="console-card" data-reveal>
+          <div class="cc-image cc-image--x">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Xbox_Series_X_with_controller.png/800px-Xbox_Series_X_with_controller.png" alt="Xbox Series X">
+          </div>
+          <div class="cc-body">
+            <span class="cc-tag cc-tag--green">Máxima potencia</span>
+            <h3 class="cc-name">Xbox Series X</h3>
+            <p class="cc-desc">12 teraflops de potencia GPU. 4K nativo a 120 FPS. SSD NVMe de 1 TB que elimina los tiempos de carga. La consola más potente de Xbox, diseñada para durar una generación.</p>
+            <ul class="cc-specs">
+              <li><span>GPU</span>12 TF RDNA 2</li>
+              <li><span>CPU</span>8× Zen 2 @ 3.8 GHz</li>
+              <li><span>RAM</span>16 GB GDDR6</li>
+              <li><span>Storage</span>1 TB NVMe SSD</li>
+            </ul>
+            <div class="cc-actions">
+              <a href="#haas" class="btn btn-primary btn-sm">Incluir en HaaS</a>
+              <a href="#"     class="btn btn-ghost   btn-sm">Ver juegos</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Series S -->
+        <div class="console-card" data-reveal>
+          <div class="cc-image cc-image--s">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Xbox_Series_S_with_controller_%28transparent_background%29.png/800px-Xbox_Series_S_with_controller_%28transparent_background%29.png" alt="Xbox Series S">
+          </div>
+          <div class="cc-body">
+            <span class="cc-tag cc-tag--blue">Acceso total</span>
+            <h3 class="cc-name">Xbox Series S</h3>
+            <p class="cc-desc">Toda la potencia de nueva generación en el formato más compacto. 1440p a 120 FPS y Game Pass Ultimate incluido. El punto de entrada más inteligente del ecosistema Xbox.</p>
+            <ul class="cc-specs">
+              <li><span>GPU</span>4 TF RDNA 2</li>
+              <li><span>CPU</span>8× Zen 2 @ 3.6 GHz</li>
+              <li><span>RAM</span>10 GB GDDR6</li>
+              <li><span>Storage</span>512 GB NVMe SSD</li>
+            </ul>
+            <div class="cc-actions">
+              <a href="#haas" class="btn btn-primary btn-sm">Incluir en HaaS</a>
+              <a href="#"     class="btn btn-ghost   btn-sm">Ver juegos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Game Pass Banner -->
+      <div class="gp-banner" data-reveal>
+        <div class="gp-text">
+          <h3>Game Pass Ultimate</h3>
+          <p>Más de 500 juegos incluidos. Día uno en todos los títulos de Xbox Game Studios. EA Play incorporado. Consola, PC y cloud en una sola suscripción.</p>
+        </div>
+        <a href="#haas" class="btn btn-primary">Incluido en todos los planes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= SECCIÓN 2 — PLANES HAAS ======= -->
+  <section class="haas" id="haas">
+    <div class="wrap">
+      <div class="sec-header">
+        <h2 class="sec-title">Hardware como servicio.</h2>
+        <p class="sec-sub">Suscripción mensual, recambio cada 3 años, cero cuota inicial. La consola siempre estará actualizada. Tú solo juegas.</p>
+      </div>
+
+      <div class="haas-tabs" role="tablist">
+        <button class="htab active" data-tab="b2c" role="tab" aria-selected="true">Jugadores (B2C)</button>
+        <button class="htab"        data-tab="b2b" role="tab" aria-selected="false">Empresas (B2B)</button>
+      </div>
+
+      <!-- B2C Panel -->
+      <div class="haas-panel" id="panel-b2c">
+        <div class="plan-card" data-reveal>
+          <div class="plan-head">
+            <span class="plan-tier">Series S</span>
+            <div class="plan-price-row">
+              <sup class="plan-cur">USD</sup>
+              <span class="plan-amt">19</span>
+              <span class="plan-dec">.99</span>
+              <span class="plan-per">/mes</span>
+            </div>
+            <span class="plan-cop">≈ COP $83.000 / mes</span>
+          </div>
+          <ul class="plan-feats">
+            <li>Xbox Series S incluida</li>
+            <li>Game Pass Ultimate</li>
+            <li>Recambio garantizado a 3 años</li>
+            <li>Soporte técnico prioritario</li>
+            <li>Sin cuota inicial</li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-full">Empezar ahora</a>
+        </div>
+
+        <div class="plan-card plan-card--featured" data-reveal>
+          <span class="plan-badge">Más popular</span>
+          <div class="plan-head">
+            <span class="plan-tier">Series X</span>
+            <div class="plan-price-row">
+              <sup class="plan-cur">USD</sup>
+              <span class="plan-amt">34</span>
+              <span class="plan-dec">.99</span>
+              <span class="plan-per">/mes</span>
+            </div>
+            <span class="plan-cop">≈ COP $145.000 / mes</span>
+          </div>
+          <ul class="plan-feats">
+            <li>Xbox Series X incluida</li>
+            <li>Game Pass Ultimate</li>
+            <li>Recambio garantizado a 3 años</li>
+            <li>Soporte técnico 24/7</li>
+            <li>Sin cuota inicial</li>
+            <li>Acceso anticipado a nuevos títulos</li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-full">Empezar ahora</a>
+        </div>
+      </div>
+
+      <!-- B2B Panel -->
+      <div class="haas-panel hidden" id="panel-b2b">
+        <div class="plan-card" data-reveal>
+          <div class="plan-head">
+            <span class="plan-tier">Enterprise Starter</span>
+            <div class="plan-price-row">
+              <sup class="plan-cur">USD</sup>
+              <span class="plan-amt">129</span>
+              <span class="plan-dec">.00</span>
+              <span class="plan-per">/mes · nodo</span>
+            </div>
+            <span class="plan-cop">≈ COP $535.000 / nodo</span>
+          </div>
+          <ul class="plan-feats">
+            <li>Estación de simulación dedicada</li>
+            <li>Integración Azure Cloud</li>
+            <li>Licencias comerciales de simulación</li>
+            <li>SLA uptime 99.9 %</li>
+            <li>Dashboard de gestión de flotilla</li>
+          </ul>
+          <a href="#enterprise" class="btn btn-primary btn-full">Contactar ventas</a>
+        </div>
+
+        <div class="plan-card plan-card--featured" data-reveal>
+          <span class="plan-badge">Recomendado</span>
+          <div class="plan-head">
+            <span class="plan-tier">Enterprise Pro</span>
+            <div class="plan-price-row plan-price-row--custom">
+              <span class="plan-custom">Precio a medida</span>
+            </div>
+            <span class="plan-cop">Para flotas de 10+ nodos</span>
+          </div>
+          <ul class="plan-feats">
+            <li>Todo lo de Enterprise Starter</li>
+            <li>Implementación on-site</li>
+            <li>Capacitación especializada</li>
+            <li>Integración con sistemas propios</li>
+            <li>Account Manager dedicado</li>
+            <li>Ciclos de recambio personalizados</li>
+          </ul>
+          <a href="#enterprise" class="btn btn-primary btn-full">Solicitar propuesta</a>
+        </div>
+      </div>
+
+      <p class="haas-note">Todos los planes incluyen: programa de reacondicionamiento ecológico certificado, cero cuota inicial y portabilidad internacional.</p>
+    </div>
+  </section>
+
+  <!-- ======= SECCIÓN 3 — ENTERPRISE & AZURE ======= -->
+  <section class="enterprise" id="enterprise">
+    <div class="ent-bg">
+      <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop" alt="Azure Cloud Simulation">
+      <div class="ent-overlay"></div>
+    </div>
+    <div class="wrap ent-inner">
+      <div class="sec-header">
+        <h2 class="sec-title">Motores del mundo real.</h2>
+        <p class="sec-sub">La misma tecnología que mueve los mejores videojuegos del mundo ahora impulsa simulaciones industriales, entrenamiento de pilotos y visualización arquitectónica en tiempo real.</p>
+      </div>
+
+      <div class="ent-grid">
+        <div class="ent-card" data-reveal>
+          <div class="ent-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <h3>Simulación de Aviación</h3>
+          <p>Entrenamiento de pilotos con escenarios 4K en tiempo real. Motor de física certificado bajo estándares FAA/EASA para licencias de vuelo.</p>
+        </div>
+
+        <div class="ent-card" data-reveal>
+          <div class="ent-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+              <polyline points="9,22 9,12 15,12 15,22"/>
+            </svg>
+          </div>
+          <h3>Visualización Arquitectónica</h3>
+          <p>Recorridos virtuales de proyectos en construcción con iluminación global y materiales PBR. Aprobación de diseños antes del primer ladrillo.</p>
+        </div>
+
+        <div class="ent-card" data-reveal>
+          <div class="ent-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>
+            </svg>
+          </div>
+          <h3>Capacitación Industrial</h3>
+          <p>Simuladores de maquinaria pesada, plantas de producción y escenarios de seguridad industrial con feedback háptico de alta fidelidad.</p>
+        </div>
+
+        <div class="ent-card" data-reveal>
+          <div class="ent-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <path d="M8 21h8M12 17v4"/>
+            </svg>
+          </div>
+          <h3>Azure Cloud Rendering</h3>
+          <p>Procesamiento de escenas en la nube de Microsoft Azure. Escala bajo demanda sin inversión en hardware propio. Facturación por tiempo de render.</p>
+        </div>
+
+        <div class="ent-card" data-reveal>
+          <div class="ent-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+            </svg>
+          </div>
+          <h3>Entrenamiento Multi-usuario</h3>
+          <p>Hasta 64 participantes simultáneos en el mismo entorno de simulación. Ideal para ejercicios tácticos, gestión de crisis y colaboración remota.</p>
+        </div>
+
+        <div class="ent-card ent-card--cta" data-reveal>
+          <h3>¿Tu industria no está aquí?</h3>
+          <p>Nuestro equipo de soluciones enterprise diseña simulaciones a medida para cualquier sector — de medicina a defensa.</p>
+          <a href="#" class="btn btn-primary">Hablar con un experto</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= SECCIÓN 4 — SOSTENIBILIDAD ======= -->
+  <section class="sustain" id="sustainability">
+    <div class="wrap sustain-layout">
+      <div class="sustain-image" data-reveal>
+        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1200&auto=format&fit=crop" alt="Economía circular Xbox Nexus">
+        <div class="sustain-pill">
+          <span class="sus-big">0</span>
+          <span class="sus-small">Huella de carbono neta</span>
+        </div>
+      </div>
+
+      <div class="sustain-body">
+        <h2 class="sec-title">Jugar bien con el planeta.</h2>
+        <p class="sustain-lead">El programa de economía circular de Xbox Nexus garantiza que ninguna consola termine en un vertedero.</p>
+
+        <ol class="sus-steps">
+          <li class="sus-step">
+            <div class="sus-marker">1</div>
+            <div>
+              <h4>Devolución y recogida certificada</h4>
+              <p>Al cumplir los 3 años de tu plan HaaS, coordinamos la recogida de la consola anterior sin costo adicional.</p>
+            </div>
+          </li>
+          <li class="sus-step">
+            <div class="sus-marker">2</div>
+            <div>
+              <h4>Reacondicionamiento industrial</h4>
+              <p>Cada unidad pasa por diagnóstico completo, sustitución de componentes degradados y certificación de calidad.</p>
+            </div>
+          </li>
+          <li class="sus-step">
+            <div class="sus-marker">3</div>
+            <div>
+              <h4>Segunda vida o reciclaje responsable</h4>
+              <p>Las aptas vuelven al mercado como "Certified Refurbished". Las demás se desensamblan con protocolos de reciclaje electrónico certificados.</p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="sus-certs">
+          <div class="sus-cert"><span class="sus-check">✓</span> Carbon Neutral 2030</div>
+          <div class="sus-cert"><span class="sus-check">✓</span> Zero Waste Certified</div>
+          <div class="sus-cert"><span class="sus-check">✓</span> Azure Green Datacenters</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Xbox_one_logo.svg" alt="Xbox Nexus">
+          <span>NEXUS</span>
+        </div>
+        <p>La plataforma de entretenimiento e innovación empresarial de próxima generación.</p>
+      </div>
+
+      <nav class="footer-cols" aria-label="Footer">
+        <div class="footer-col">
+          <h5>Productos</h5>
+          <ul>
+            <li><a href="#">Xbox Series X</a></li>
+            <li><a href="#">Xbox Series S</a></li>
+            <li><a href="#">Game Pass Ultimate</a></li>
+            <li><a href="#">Planes HaaS</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Empresa</h5>
+          <ul>
+            <li><a href="#">Acerca de Nexus</a></li>
+            <li><a href="#">Soluciones Enterprise</a></li>
+            <li><a href="#">Sostenibilidad</a></li>
+            <li><a href="#">Sala de prensa</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="#">Términos de servicio</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Términos HaaS</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="footer-copy">
+      <p>© 2025 Microsoft Corporation / Xbox Nexus. Todos los derechos reservados. Xbox, el logotipo de Xbox y Xbox Series X|S son marcas comerciales del grupo de empresas Microsoft.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
